@@ -14,7 +14,7 @@ format:
 editor: source
 ---
 
-# `strata` accepted into the CRAN
+# Almost seven years working in `Public Health`
 
 ------------------------------------------------------------------------
 
