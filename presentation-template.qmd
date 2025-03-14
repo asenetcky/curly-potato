@@ -21,16 +21,14 @@ editor: source
 
 I learned some things along the way that I want to share.
 
--   Not a nitty gritty look into package building
-
--   High level overview of lessons learned
-
 ------------------------------------------------------------------------
+
+## What I `love` about Public Health
 
 This presentation isn't about `strata` but if you want to check it out, please do at: <https://asenetcky.github.io/strata/>
 
 ::: notes
-I'm not here to promote strata, and we won't be covering it in depth. I will say that it is a package that helps teams withou fancy automation tooling to take the code they *already* have and place it in a framework that is easy to automate using the tools they *already* have on their computer.
+I'm not here to promote strata, and we won't be covering it in depth. I will say that it is a 
 :::
 
 # What I wish I had known
@@ -45,7 +43,9 @@ I'm not here to promote strata, and we won't be covering it in depth. I will say
 I just didn't hear this enough, but it is possible and if the pros I mention later on in the presentation are critical to your projects, then I strongly encourage you to give package building a try.
 :::
 
-## Package Scope
+# Opioid Epidemic
+
+## Syndromic Surveillance
 
 -   The R package can just be a small family of functions, it does **not** need to be the next `tidyverse`
 
@@ -53,7 +53,13 @@ I just didn't hear this enough, but it is possible and if the pros I mention lat
 
 -   It does *not* need to go up to the CRAN
 
-## I wish I had started years ago
+# Covid-19 Pandemic
+
+
+
+## K2
+
+
 
 ::: notes
 If I had started honing this skill years ago, I would saved myself alot of headaches down the road.
@@ -78,6 +84,13 @@ If I had started honing this skill years ago, I would saved myself alot of heada
     -   Makes it easier for others to use and *understand* your code
 
     -   Makes you a better teammate
+
+
+# What they don't tell you
+
+
+
+# You're a story teller
 
 ## **Portability**
 
