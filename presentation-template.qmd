@@ -1,5 +1,6 @@
 ---
-title: "Telling Stories in Public Health through Data"
+title: From Opioids to Omicron
+subtitle: My Journey in Public Health
 author: 
   - name: Alexander Senetcky
     orcid: 0009-0009-3730-5397
