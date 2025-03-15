@@ -30,7 +30,7 @@ for programming, analytics and software development
 
     - Often the reproducibility guy
 
-## How the Journey Started
+## How it Started
 
 ::: {.incremental}
 - Wanted to be a Physician Assistant
@@ -48,8 +48,6 @@ for programming, analytics and software development
     - Found out it was a nice combination of many of my interests and values
 :::
 
- 
-
 # Almost seven years working in `Public Health`
 
 ------------------------------------------------------------------------
@@ -61,12 +59,6 @@ I learned some things along the way that I want to share.
 ## How it's going
 
 ## What I `love` about Public Health
-
-This presentation isn't about `strata` but if you want to check it out, please do at: <https://asenetcky.github.io/strata/>
-
-::: notes
-I'm not here to promote strata, and we won't be covering it in depth. I will say that it is a 
-:::
 
 # What I wish I had known
 
@@ -84,33 +76,14 @@ I just didn't hear this enough, but it is possible and if the pros I mention lat
 
 ## Syndromic Surveillance
 
--   The R package can just be a small family of functions, it does **not** need to be the next `tidyverse`
-
--   The R package just needs to be useful to *you and your team*
-
--   It does *not* need to go up to the CRAN
-
-# Covid-19 Pandemic
-
-
-
 ## K2
 
-
-
-::: notes
-If I had started honing this skill years ago, I would saved myself alot of headaches down the road.
-:::
+# Covid-19 Pandemic
 
 # What's gained by making an R package?
 
 ## **Reproducibility**
 
--   Building a package bundles up all your code *AND* your dependencies
-
-    -   No more endless `source()` calls to helper scripts and functions
-
--   Users can enforce strict versioning of dependencies
 
 ------------------------------------------------------------------------
 
@@ -125,94 +98,4 @@ If I had started honing this skill years ago, I would saved myself alot of heada
 
 # What they don't tell you
 
-
-
 # You're a story teller
-
-## **Portability**
-
-Building a package means that the code and documentation can be easily shared with others publicly and privately.
-
--   No more emailing code around
-
--   No more asking permission to access share drives or folders
-
--   No more manually cutting and pasting code all over the place
-
-## **Clarity and Organization**
-
--   The package structure forces you to organize your code in a way that is easy to understand and use
-
--   The documentation lives alongside the code, making it easier to understand what the code does
-
--   Build tools allow pieces of documentation to be used over and over again
-
-    -   Update once, and it updates everywhere
-
-    -   Consistent language throughout
-
-# Sharing R Packages
-
-------------------------------------------------------------------------
-
-Getting an R Package requires alot of work and overheard that might not be worth it for a small project. However, users can still share their project with others it does not need to be on the CRAN.
-
-## Distributing your Package
-
-Sharing your R package is easy to do with `git` and a repository hosting service.
-
--   [Github](https://github.com/)
-
--   [Gitlab](https://about.gitlab.com/)
-
--   [Azure Devops](https://azure.microsoft.com/en-us/products/devops)
-
--   [Bitbucket](https://bitbucket.org/)
-
-## Sharing Publicly
-
-You may remember Chuck showing off the `pak` package in a previous meeting. Once an R package is hosted in a remote repository, `pak` is just about all users need to install the package.
-
--   `pak::pak("<GITHUB USERNAME>/<PACKAGE NAME>")`
-
--   install the development version of `strata`:
-
-    -   `pak::pak("asenetcky/strata")`
-
-## Sharing Privately
-
--   The `remotes` package is a great way to install packages from a private repository.
-
--   For example we have a private CT DPH `odp` R package for internal use only that is hosted in our Azure Devops Project.
-
--   Installing that would look something like:
-
-    -   `remotes::install_git("<REPO CLONE URL>", git = "external)`
-
-# One last note on Reproducibility
-
-## What we don't have
-
--   Most of us *do not* have access to the fanciest tools and services
-
--   Most of us *are not* allowed to spool up a docker image, or server for development
-
-## What we do have
-
--   Most of us have access to R
-
--   Most of us have access to git (whether we realize it or not)
-
-## Pulling it all together
-
-If users combine:
-
--   R
-
--   git
-
--   Your own R Package
-
--   `renv` package
-
-Users *will* have a powerful combination of tools where reproducibility is paramount.
