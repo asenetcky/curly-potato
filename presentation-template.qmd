@@ -17,6 +17,28 @@ editor: source
 
 # About Me
 
+- Allied Health - Graduated in 2012
+
+- MPH - Graduated in 2018
+
+- Love coffee ☕
+
+- Love Camping 🏕️ and the outdoors
+
+- Enjoy learning, and using open source tools 
+for programming, analytics and software development
+
+    - Often the reproducibility guy
+
+## How the Journey Started
+
+- Wanted to be a Physician Assistant
+
+    - Loved working with patients
+
+    - Healthcare setting was _not_ for me
+
+
 # Almost seven years working in `Public Health`
 
 ------------------------------------------------------------------------
@@ -24,6 +46,8 @@ editor: source
 I learned some things along the way that I want to share.
 
 ------------------------------------------------------------------------
+
+## How it's going
 
 ## What I `love` about Public Health
 
