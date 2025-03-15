@@ -32,12 +32,23 @@ for programming, analytics and software development
 
 ## How the Journey Started
 
+::: {.incremental}
 - Wanted to be a Physician Assistant
 
     - Loved working with patients
 
     - Healthcare setting was _not_ for me
+      
+- As an undergrad had worked alot with `Uconn Community Outreach` 
 
+- Stumbled across Public Health
+
+    - Did _not_ know what it was
+        
+    - Found out it was a nice combination of many of my interests and values
+:::
+
+ 
 
 # Almost seven years working in `Public Health`
 
