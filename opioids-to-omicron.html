@@ -1015,15 +1015,23 @@ Alexander Senetcky <a href="https://orcid.org/0009-0009-3730-5397" class="quarto
 </ul></li>
 </ul>
 </section>
-<section id="how-the-journey-started" class="slide level2">
-<h2>How the Journey Started</h2>
+<section id="how-it-started" class="slide level2">
+<h2>How it Started</h2>
+<div>
 <ul>
-<li><p>Wanted to be a Physician Assistant</p>
+<li class="fragment"><p>Wanted to be a Physician Assistant</p>
 <ul>
-<li><p>Loved working with patients</p></li>
-<li><p>Healthcare setting was <em>not</em> for me</p></li>
+<li class="fragment"><p>Loved working with patients</p></li>
+<li class="fragment"><p>Healthcare setting was <em>not</em> for me</p></li>
+</ul></li>
+<li class="fragment"><p>As an undergrad had worked alot with <code>Uconn Community Outreach</code></p></li>
+<li class="fragment"><p>Stumbled across Public Health</p>
+<ul>
+<li class="fragment"><p>Did <em>not</em> know what it was</p></li>
+<li class="fragment"><p>Found out it was a nice combination of many of my interests and values</p></li>
 </ul></li>
 </ul>
+</div>
 </section></section>
 <section>
 <section id="almost-seven-years-working-in-public-health" class="title-slide slide level1 center">
@@ -1036,48 +1044,14 @@ Alexander Senetcky <a href="https://orcid.org/0009-0009-3730-5397" class="quarto
 </section>
 <section id="how-its-going" class="slide level2">
 <h2>How it’s going</h2>
+<h3 id="epidemiology">Epidemiology</h3>
+<h3 id="data-scientist">Data Scientist</h3>
 </section>
 <section id="what-i-love-about-public-health" class="slide level2">
 <h2>What I <code>love</code> about Public Health</h2>
-<p>This presentation isn’t about <code>strata</code> but if you want to check it out, please do at: <a href="https://asenetcky.github.io/strata/" class="uri">https://asenetcky.github.io/strata/</a></p>
-<aside class="notes">
-<p>I’m not here to promote strata, and we won’t be covering it in depth. I will say that it is a</p>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
-</section></section>
-<section>
-<section id="what-i-wish-i-had-known" class="title-slide slide level1 center">
-<h1>What I wish I had known</h1>
-
 </section>
-<section id="it-is-possible" class="slide level2">
-<h2>It <em>IS</em> possible!</h2>
-<ul>
-<li><p>There are excellent <em>free</em> resources out there</p></li>
-<li><p>Almost everything you need to know is in <a href="https://r-pkgs.org/">R Packages 2nd Edition</a></p></li>
-</ul>
-<aside class="notes">
-<p>I just didn’t hear this enough, but it is possible and if the pros I mention later on in the presentation are critical to your projects, then I strongly encourage you to give package building a try.</p>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
+<section id="what-i-wish-i-had-known" class="slide level2">
+<h2>What I wish I had known</h2>
 </section></section>
 <section>
 <section id="opioid-epidemic" class="title-slide slide level1 center">
@@ -1086,160 +1060,25 @@ display:block!important;
 </section>
 <section id="syndromic-surveillance" class="slide level2">
 <h2>Syndromic Surveillance</h2>
-<ul>
-<li><p>The R package can just be a small family of functions, it does <strong>not</strong> need to be the next <code>tidyverse</code></p></li>
-<li><p>The R package just needs to be useful to <em>you and your team</em></p></li>
-<li><p>It does <em>not</em> need to go up to the CRAN</p></li>
-</ul>
+</section>
+<section id="k2" class="slide level2">
+<h2>K2</h2>
 </section></section>
 <section>
 <section id="covid-19-pandemic" class="title-slide slide level1 center">
 <h1>Covid-19 Pandemic</h1>
 
 </section>
-<section id="k2" class="slide level2">
-<h2>K2</h2>
-<aside class="notes">
-<p>If I had started honing this skill years ago, I would saved myself alot of headaches down the road.</p>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
+<section id="what-they-dont-tell-you" class="slide level2">
+<h2>What they don’t tell you</h2>
 </section></section>
-<section>
-<section id="whats-gained-by-making-an-r-package" class="title-slide slide level1 center">
-<h1>What’s gained by making an R package?</h1>
-
-</section>
-<section id="reproducibility" class="slide level2">
-<h2><strong>Reproducibility</strong></h2>
-<ul>
-<li><p>Building a package bundles up all your code <em>AND</em> your dependencies</p>
-<ul>
-<li>No more endless <code>source()</code> calls to helper scripts and functions</li>
-</ul></li>
-<li><p>Users can enforce strict versioning of dependencies</p></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><p>R package build tools allow users to check, and ensure that the package it will run on just about any machine that is required</p></li>
-<li><p>Building a package forces users to write out that documentation we so often skip over</p>
-<ul>
-<li><p>Makes it easier for others to use and <em>understand</em> your code</p></li>
-<li><p>Makes you a better teammate</p></li>
-</ul></li>
-</ul>
-</section></section>
-<section id="what-they-dont-tell-you" class="title-slide slide level1 center">
-<h1>What they don’t tell you</h1>
-
-</section>
-
 <section>
 <section id="youre-a-story-teller" class="title-slide slide level1 center">
 <h1>You’re a story teller</h1>
 
 </section>
-<section id="portability" class="slide level2">
-<h2><strong>Portability</strong></h2>
-<p>Building a package means that the code and documentation can be easily shared with others publicly and privately.</p>
-<ul>
-<li><p>No more emailing code around</p></li>
-<li><p>No more asking permission to access share drives or folders</p></li>
-<li><p>No more manually cutting and pasting code all over the place</p></li>
-</ul>
-</section>
-<section id="clarity-and-organization" class="slide level2">
-<h2><strong>Clarity and Organization</strong></h2>
-<ul>
-<li><p>The package structure forces you to organize your code in a way that is easy to understand and use</p></li>
-<li><p>The documentation lives alongside the code, making it easier to understand what the code does</p></li>
-<li><p>Build tools allow pieces of documentation to be used over and over again</p>
-<ul>
-<li><p>Update once, and it updates everywhere</p></li>
-<li><p>Consistent language throughout</p></li>
-</ul></li>
-</ul>
-</section></section>
-<section>
-<section id="sharing-r-packages" class="title-slide slide level1 center">
-<h1>Sharing R Packages</h1>
-
-</section>
-<section class="slide level2">
-
-<p>Getting an R Package requires alot of work and overheard that might not be worth it for a small project. However, users can still share their project with others it does not need to be on the CRAN.</p>
-</section>
-<section id="distributing-your-package" class="slide level2">
-<h2>Distributing your Package</h2>
-<p>Sharing your R package is easy to do with <code>git</code> and a repository hosting service.</p>
-<ul>
-<li><p><a href="https://github.com/">Github</a></p></li>
-<li><p><a href="https://about.gitlab.com/">Gitlab</a></p></li>
-<li><p><a href="https://azure.microsoft.com/en-us/products/devops">Azure Devops</a></p></li>
-<li><p><a href="https://bitbucket.org/">Bitbucket</a></p></li>
-</ul>
-</section>
-<section id="sharing-publicly" class="slide level2">
-<h2>Sharing Publicly</h2>
-<p>You may remember Chuck showing off the <code>pak</code> package in a previous meeting. Once an R package is hosted in a remote repository, <code>pak</code> is just about all users need to install the package.</p>
-<ul>
-<li><p><code>pak::pak(&quot;&lt;GITHUB USERNAME&gt;/&lt;PACKAGE NAME&gt;&quot;)</code></p></li>
-<li><p>install the development version of <code>strata</code>:</p>
-<ul>
-<li><code>pak::pak(&quot;asenetcky/strata&quot;)</code></li>
-</ul></li>
-</ul>
-</section>
-<section id="sharing-privately" class="slide level2">
-<h2>Sharing Privately</h2>
-<ul>
-<li><p>The <code>remotes</code> package is a great way to install packages from a private repository.</p></li>
-<li><p>For example we have a private CT DPH <code>odp</code> R package for internal use only that is hosted in our Azure Devops Project.</p></li>
-<li><p>Installing that would look something like:</p>
-<ul>
-<li><code>remotes::install_git(&quot;&lt;REPO CLONE URL&gt;&quot;, git = &quot;external)</code></li>
-</ul></li>
-</ul>
-</section></section>
-<section>
-<section id="one-last-note-on-reproducibility" class="title-slide slide level1 center">
-<h1>One last note on Reproducibility</h1>
-
-</section>
-<section id="what-we-dont-have" class="slide level2">
-<h2>What we don’t have</h2>
-<ul>
-<li><p>Most of us <em>do not</em> have access to the fanciest tools and services</p></li>
-<li><p>Most of us <em>are not</em> allowed to spool up a docker image, or server for development</p></li>
-</ul>
-</section>
-<section id="what-we-do-have" class="slide level2">
-<h2>What we do have</h2>
-<ul>
-<li><p>Most of us have access to R</p></li>
-<li><p>Most of us have access to git (whether we realize it or not)</p></li>
-</ul>
-</section>
-<section id="pulling-it-all-together" class="slide level2">
-<h2>Pulling it all together</h2>
-<p>If users combine:</p>
-<ul>
-<li><p>R</p></li>
-<li><p>git</p></li>
-<li><p>Your own R Package</p></li>
-<li><p><code>renv</code> package</p></li>
-</ul>
-<p>Users <em>will</em> have a powerful combination of tools where reproducibility is paramount.</p>
+<section id="telling-stories-with-data" class="slide level2">
+<h2>Telling Stories with Data</h2>
 
 </section></section>
     </div>

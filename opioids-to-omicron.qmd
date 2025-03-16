@@ -1,0 +1,81 @@
+---
+title: From Opioids to Omicron
+subtitle: My Journey in Public Health
+author: 
+  - name: Alexander Senetcky
+    orcid: 0009-0009-3730-5397
+    email: asenetcky@gmail.com
+    roles:
+      - Epidemiologist
+      - Data Scientist
+format: 
+  revealjs:
+    theme: dark
+    embed-resources: true
+editor: source
+---
+
+# About Me
+
+- Allied Health - Graduated in 2012
+
+- MPH - Graduated in 2018
+
+- Love coffee ☕
+
+- Love Camping 🏕️ and the outdoors
+
+- Enjoy learning, and using open source tools 
+for programming, analytics and software development
+
+    - Often the reproducibility guy
+
+## How it Started
+
+::: {.incremental}
+- Wanted to be a Physician Assistant
+
+    - Loved working with patients
+
+    - Healthcare setting was _not_ for me
+      
+- As an undergrad had worked alot with `Uconn Community Outreach` 
+
+- Stumbled across Public Health
+
+    - Did _not_ know what it was
+        
+    - Found out it was a nice combination of many of my interests and values
+:::
+
+# Almost seven years working in `Public Health`
+
+------------------------------------------------------------------------
+
+I learned some things along the way that I want to share.
+
+------------------------------------------------------------------------
+
+## How it's going
+
+### Epidemiology
+
+### Data Scientist
+
+## What I `love` about Public Health
+
+## What I wish I had known
+
+# Opioid Epidemic
+
+## Syndromic Surveillance
+
+## K2
+
+# Covid-19 Pandemic
+
+## What they don't tell you
+
+# You're a story teller
+
+## Telling Stories with Data
