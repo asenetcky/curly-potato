@@ -58,19 +58,13 @@ I learned some things along the way that I want to share.
 
 ## How it's going
 
+### Epidemiology
+
+### Data Scientist
+
 ## What I `love` about Public Health
 
-# What I wish I had known
-
-## It *IS* possible!
-
--   There are excellent *free* resources out there
-
--   Almost everything you need to know is in [R Packages 2nd Edition](https://r-pkgs.org/)
-
-::: notes
-I just didn't hear this enough, but it is possible and if the pros I mention later on in the presentation are critical to your projects, then I strongly encourage you to give package building a try.
-:::
+## What I wish I had known
 
 # Opioid Epidemic
 
@@ -80,22 +74,8 @@ I just didn't hear this enough, but it is possible and if the pros I mention lat
 
 # Covid-19 Pandemic
 
-# What's gained by making an R package?
-
-## **Reproducibility**
-
-
-------------------------------------------------------------------------
-
--   R package build tools allow users to check, and ensure that the package it will run on just about any machine that is required
-
--   Building a package forces users to write out that documentation we so often skip over
-
-    -   Makes it easier for others to use and *understand* your code
-
-    -   Makes you a better teammate
-
-
-# What they don't tell you
+## What they don't tell you
 
 # You're a story teller
+
+## Telling Stories with Data
