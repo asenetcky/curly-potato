@@ -48,13 +48,7 @@ for programming, analytics and software development
     - Found out it was a nice combination of many of my interests and values
 :::
 
-# Almost seven years working in `Public Health`
-
-------------------------------------------------------------------------
-
-I learned some things along the way that I want to share.
-
-------------------------------------------------------------------------
+# Almost seven years working in `Public Health` 
 
 ## How it's going
 
@@ -64,7 +58,28 @@ I learned some things along the way that I want to share.
 
 ## What I `love` about Public Health
 
+- melting pot of so many different subject matter experts
+
+  - law, government, it, informatics, healthcare, bench science 
+
+- underdog mentality  
+
+  - how can we help the most people with our limited resources
+
+  - rewards creativity
+
+- lots of oppurtunities to tackle interesting problems in novel ways with data
+
 ## What I wish I had known
+
+- applied public health is often different
+than the what you study in grad school
+
+- 
+
+## What they don't tell you
+
+- more political than I would have ever imagined
 
 # Opioid Epidemic
 
@@ -74,8 +89,9 @@ I learned some things along the way that I want to share.
 
 # Covid-19 Pandemic
 
-## What they don't tell you
+## Lessons learned
 
 # You're a story teller
 
 ## Telling Stories with Data
+
